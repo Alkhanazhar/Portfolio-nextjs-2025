@@ -5,7 +5,7 @@ import React from "react";
 
 export function Hero() {
   return (
-    <BackgroundLines className="flex items-center justify-center w-full flex-col px-4 md:-mt-16 -z-10 space-y-8 md:space-y-4">
+    <div className="flex items-center justify-center w-full flex-col px-4 mt-16 -z-10 space-y-8 md:space-y-4">
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -50,6 +50,6 @@ export function Hero() {
         Crafting Seamless and Scalable Web and Mobile Applications with Modern
         Full-Stack Technologies, Including MERN, Next.js, and React Native.
       </motion.p>
-    </BackgroundLines>
+    </div>
   );
 }
