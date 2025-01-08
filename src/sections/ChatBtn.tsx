@@ -1,7 +1,6 @@
 "use client";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import { FaCross } from "react-icons/fa";
 import { MdCancel, MdMessage, MdSend } from "react-icons/md";
 
 const ChatBtn = () => {
