@@ -94,7 +94,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Tarhaab",
+      title: "Ecommerce",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
@@ -138,15 +138,15 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Quiz Mobile Platform",
+      title: "DEV Tinder",
 
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            React native Mobile Platform application
+            Social Media for developer
           </p>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Role - Front End Developer
+            ✅ Role - Full Stack End Developer
           </div>
           <div className="grid grid-cols-2 gap-4">
             <Image
