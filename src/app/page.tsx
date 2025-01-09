@@ -1,11 +1,11 @@
 "use client";
-import AboutMe from "@/sections/AboutMe";
-import ChatBtn from "@/sections/ChatBtn";
-import Footer from "@/sections/Footer";
-import Header from "@/sections/Header";
-import { Hero } from "@/sections/Hero";
-import Projects from "@/sections/Projects";
-import Technologies from "@/sections/Technologies";
+import AboutMe from "../sections/Aboutme";
+import ChatBtn from "../sections/ChatBtn";
+import Footer from "../sections/Footer";
+import Header from "../sections/Header";
+import { Hero } from "../sections/Hero";
+import Projects from "../sections/Projects";
+import Technologies from "../sections/Technologies";
 import { useEffect } from "react";
 
 export default function Home() {

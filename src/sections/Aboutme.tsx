@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Title from "./Title";
-import { TextGenerateEffect } from "@/components/components/ui/text-generate-effect";
+import { TextGenerateEffect } from "../components/components/ui/text-generate-effect";
 
 // stohp stohp stohp stohp stohp stohp stohp
 
