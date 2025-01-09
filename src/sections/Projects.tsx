@@ -40,7 +40,7 @@ const Projects = () => {
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
       viewport={{ amount: 0.1 }}
-      className="min-h-screen "
+      className="my-12"
     >
       <Title title="projects" />
       <TimelineDemo />
