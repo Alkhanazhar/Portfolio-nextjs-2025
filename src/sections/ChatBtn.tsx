@@ -7,12 +7,6 @@ const ChatBtn = () => {
   const [chatbox, setBox] = useState(false);
   const [message, setMessage] = useState("");
   const handleClick = () => {
-    // Open WhatsApp with a pre-filled message
-    // const phoneNumber = "+91-9109093125"; // Replace with the phone number you want to send to
-    // const message = "Hello, I would like to chat!"; // Replace with your desired message
-    // const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    //   message
-    // )}`;
     setMessage("");
     setBox(false);
 

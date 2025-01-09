@@ -5,8 +5,9 @@ import SkillsCard from "@/components/components/SkillCard";
 import { MdAnimation, MdNextPlan, MdTsunami } from "react-icons/md";
 import { FaDatabase, FaHtml5, FaJs, FaReact, FaServer } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { SiFramer, SiMongodb, SiNextdotjs, SiNodedotjs, SiPostgresql, SiSvgtrace, SiTypescript } from "react-icons/si";
 
-const Technologies = () => {
+const   Technologies = () => {
   interface Skill {
     title: string;
     icon: React.JSX.Element;
@@ -20,7 +21,7 @@ const Technologies = () => {
     },
     {
       title: "Typescript",
-      icon: <MdTsunami className="h-16 w-16  mx-auto text-blue-600" />,
+      icon: <SiTypescript className="h-16 w-16  mx-auto text-blue-600" />,
       text: "Highly Typerscript, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
     },
     {
@@ -30,7 +31,7 @@ const Technologies = () => {
     },
     {
       title: "Node js",
-      icon: <FaJs className="h-16 w-16  mx-auto text-blue-600" />,
+      icon: <SiNodedotjs className="h-16 w-16  mx-auto text-blue-600" />,
       text: "Expertise in Node js, building interactive and dynamic web applications Server with a focus on seamless user interactions and functionality.",
     },
     {
@@ -39,28 +40,28 @@ const Technologies = () => {
       text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
     },
     {
-      title: "Mongo SB Stack",
-      icon: <FaServer className="h-16 w-16  mx-auto text-blue-600" />,
+      title: "Mongo DB",
+      icon: <SiMongodb className="h-16 w-16  mx-auto text-blue-600" />,
       text: "Comprehensive expertise in the MERN stack (MongoDB, Express.js, React, Node.js), creating robust full-stack applications for scalable and secure solutions.",
     },
     {
       title: "PostgreSQL",
-      icon: <FaDatabase className="h-16 w-16  mx-auto text-blue-600" />,
+      icon: <SiPostgresql className="h-16 w-16  mx-auto text-blue-600" />,
       text: "Comprehensive expertise in the MERN stack (MongoDB, Express.js, React, Node.js), creating robust full-stack applications for scalable and secure solutions.",
     },
     {
       title: "Next.js",
-      icon: <FaReact className="h-16 w-16  mx-auto text-blue-600" />,
+      icon: <SiNextdotjs className="h-16 w-16  mx-auto text-blue-600" />,
       text: "Specialized in Next.js for building high-performance server-side rendered applications with exceptional SEO and scalability.",
     },
     {
       title: "GSAP",
-      icon: <MdAnimation className="h-16 w-16  mx-auto text-blue-600" />,
+      icon: <SiSvgtrace className="h-16 w-16  mx-auto text-blue-600" />,
       text: "Proficient in GSAP (GreenSock Animation Platform), delivering smooth and captivating animations to enhance user engagement and experience.",
     },
     {
       title: "Framer Motion",
-      icon: <MdNextPlan className="h-16 w-16  mx-auto text-blue-600 " />,
+      icon: <SiFramer className="h-16 w-16  mx-auto text-blue-600 " />,
       text: "Skilled in Framer Motion, integrating fluid and expressive animations into React applications to create intuitive and delightful user interfaces.",
     },
   ];

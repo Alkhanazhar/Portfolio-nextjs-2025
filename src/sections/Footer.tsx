@@ -22,7 +22,7 @@ const Footer = () => {
           </Button>
         </div>
       </div>
-      <div className="z-10 md:p-6 mt-4 p-4 border-t border-white/10 backdrop-blur-2xl bg-blue-400/10 flex justify-between items-center">
+      <div className="z-10 md:p-6 mt-4 px-4 py-20 border-t border-white/10 backdrop-blur-2xl bg-blue-400/10 flex justify-between items-center">
         <p className="text-sm mb-4 md:mb-0">
           © {new Date().getFullYear()} Azhar Khan. All Rights Reserved.
         </p>
