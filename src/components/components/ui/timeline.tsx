@@ -1,9 +1,13 @@
 "use client";
 import { useScroll, useTransform, motion } from "framer-motion";
-import React, { useEffect, useRef, useState } from "react";
+import React, {  useEffect, useRef, useState } from "react";
 
-export const Timeline = ({ data }) => {
-  const ref = useRef(null);
+interface Data {
+  title: string;
+  content: React.JSX.Element;
+}
+export const Timeline = ({ data }: { data: Data[] }) => {
+  const ref = useRef<HTMLDivElement | null>(null);
   const containerRef = useRef(null);
   const [height, setHeight] = useState(0);
 
@@ -26,7 +30,7 @@ export const Timeline = ({ data }) => {
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      transition={{ duration: .5 }}
+      transition={{ duration: 0.5 }}
       viewport={{ amount: 0.12 }}
       className="w-full  font-sans md:px-10"
       ref={containerRef}

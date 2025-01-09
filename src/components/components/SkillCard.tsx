@@ -1,8 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { ReactNode } from "react";
 
-const SkillsCard = ({ icon, title, text }) => {
+const SkillsCard = ({
+  icon,
+  title,
+  text,
+}: {
+  icon: ReactNode;
+  title: string;
+  text: string;
+}) => {
   return (
     <motion.article
       whileHover={{

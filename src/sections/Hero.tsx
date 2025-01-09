@@ -1,5 +1,5 @@
 "use client";
-import { BackgroundLines } from "@/components/components/ui/background-lines";
+
 import { motion } from "framer-motion";
 import React from "react";
 
