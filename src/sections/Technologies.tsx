@@ -2,12 +2,19 @@
 import React from "react";
 import Title from "./Title";
 import SkillsCard from "@/components/components/SkillCard";
-import { MdAnimation, MdNextPlan, MdTsunami } from "react-icons/md";
-import { FaDatabase, FaHtml5, FaJs, FaReact, FaServer } from "react-icons/fa";
+import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { SiFramer, SiMongodb, SiNextdotjs, SiNodedotjs, SiPostgresql, SiSvgtrace, SiTypescript } from "react-icons/si";
+import {
+  SiFramer,
+  SiMongodb,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiPostgresql,
+  SiSvgtrace,
+  SiTypescript,
+} from "react-icons/si";
 
-const   Technologies = () => {
+const Technologies = () => {
   interface Skill {
     title: string;
     icon: React.JSX.Element;
