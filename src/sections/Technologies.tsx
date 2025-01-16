@@ -78,14 +78,30 @@ const Technologies = () => {
       initial={{ opacity: 0, scale: 0.9 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.2 }}
-      viewport={{ amount: 0.3 }}
+      viewport={{ amount: 0.1 }}
       className="min-h-screen w-full relative  font-sans md:px-10  "
     >
-      <div className="w-60 h-60 absolute top-1/2 left-1/2 bg-blue-600/30 blur-3xl"></div>
+      <div className="w-60 h-60 absolute top-1/2 left-1/2 bg-blue-600/20 blur-3xl"></div>
       <Title title={"Technologie's"} />
       <div className="max-w-7xl mx-auto px-8 ">
         <motion.div
-          transition={{ staggerChildren: 1 }}
+          variants={{
+            visible: {
+              transition: {
+                staggerChildren: 0.2,
+              },
+            },
+            hidden: {
+              transition: {
+                staggerChildren: 0.2,
+                staggerDirection: -1,
+              },
+            },
+          }}
+          whileInView="visible"
+          initial="hidden"
+          animate="hidden"
+          viewport={{ amount: 0.5 }}
           className=" py-16 grid grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {skills.map((skill: Skill, index) => {

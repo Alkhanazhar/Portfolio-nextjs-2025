@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import image1 from "@/assets/images/project-1.jpg";
 import image2 from "@/assets/images/project-2.jpg";
 import image3 from "@/assets/images/project-3.jpg";
@@ -33,7 +33,6 @@ const projects = [
 ];
 
 const Projects = () => {
-  
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}

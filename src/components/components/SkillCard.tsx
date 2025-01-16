@@ -24,15 +24,8 @@ const SkillsCard = ({
         zIndex: 1000,
         shadow: "4rem 4rem white",
       }}
-      whileInView={{
-        opacity: 1,
-        y: 0,
-        transition: {
-          delay: 0.05,
-        },
-      }}
       viewport={{
-        amount: .3,
+        amount: 0.3,
       }}
       whileTap={{
         rotate: -3,
@@ -40,7 +33,17 @@ const SkillsCard = ({
         zIndex: 1000,
         shadow: "4rem 4rem white",
       }}
-      className="text-center backdrop-blur-xl border-white/10 border rounded-md p-3 "
+      className="scale-50 text-center backdrop-blur-xl border-white/10 border rounded-md p-3 "
+      variants={{
+        visible: {
+          opacity: 1,
+          x: 0,
+        },
+        hidden: {
+          opacity: 0,
+          x: -30,
+        },
+      }}
     >
       <span className="">{icon}</span>
       <h4 className="mt-6 font-semibold md:font-bold ">{title}</h4>

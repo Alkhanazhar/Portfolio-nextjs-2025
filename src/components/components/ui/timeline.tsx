@@ -1,6 +1,6 @@
 "use client";
 import { useScroll, useTransform, motion } from "framer-motion";
-import React, {  useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 interface Data {
   title: string;
@@ -33,7 +33,7 @@ export const Timeline = ({ data }: { data: Data[] }) => {
       transition={{ duration: 0.5 }}
       viewport={{ amount: 0.12 }}
       className="w-full  font-sans md:px-10"
-      ref={containerRef}
+      ref={containerRef}  
     >
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20 md:-mt-20">
         {data.map((item, index) => (
