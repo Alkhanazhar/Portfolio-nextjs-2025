@@ -21,7 +21,7 @@ export function Hero() {
         className="text-sm md:text-xl border-white/10 px-3 py-2 backdrop-blur-xl bg-slate-900/20 rounded shadow-lg border flex items-center gap-3"
       >
         <div className="w-4 h-4 rounded-full bg-[#6abe5e]"></div>
-        <span className="text-sm">Available for opportunities</span>
+        <span className="text-xs">Available for opportunities</span>
       </motion.div>
       <div className="overflow-hidden">
         <motion.h2
