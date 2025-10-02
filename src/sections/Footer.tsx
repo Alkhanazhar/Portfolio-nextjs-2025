@@ -1,5 +1,5 @@
 import Button from "@/app/_comhpo/Button";
-import { FaArrowRight, FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
