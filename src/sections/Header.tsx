@@ -42,9 +42,11 @@ const Header: FC = () => {
             return <li key={item.label}>{item.label}</li>;
           })}
         </ul>
-        <Button >
-          <span>Resume</span>
-        </Button>
+        <a href="Resume.pdf" target="_blank" rel="noreferrer" download={true}>
+          <Button>
+            <span>Resume</span>
+          </Button>
+        </a>
       </div>
     </header>
   );

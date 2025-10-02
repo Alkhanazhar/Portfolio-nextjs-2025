@@ -23,8 +23,8 @@ const AboutMe = () => {
       className="my-12 flex w-full scroll-mt-28 flex-col items-center py-12 relative"
       initial={{ opacity: 0, scale: 0.9 }}
       whileInView={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.2 }}
-      viewport={{ amount: 0.5 }}
+      transition={{ duration: 0.1 }}
+      viewport={{ amount: 0.1, once: true }}
     >
       <Title title="About Me" />
       <div className="max-w-2xl text-center leading-7 py-10 ">

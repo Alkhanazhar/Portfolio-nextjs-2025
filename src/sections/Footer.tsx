@@ -1,5 +1,5 @@
 import Button from "@/app/_comhpo/Button";
-import { FaArrowRight, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaArrowRight, FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,10 +17,12 @@ const Footer = () => {
               </p>
             </div>
 
-            <Button>
-              <span className="text-sm"> Contact Me</span>
-              <FaArrowRight size={16} stroke="10" />
-            </Button>
+            <a href="tel:+919109093125" className="flex items-center gap-2">
+              <Button>
+                <span className="text-sm"> Call Me</span>
+                <FaPhone size={12} className="rotate-90" />
+              </Button>
+            </a>
           </div>
         </div>
         <div className="z-10 md:p-6 mt-4 px-4 py-20 border-t border-white/10 flex justify-between items-center">

@@ -25,7 +25,8 @@ const SkillsCard = ({
         shadow: "4rem 4rem white",
       }}
       viewport={{
-        amount: 0.3,
+        amount: 0.1,
+        once: true,
       }}
       whileTap={{
         rotate: -3,
@@ -47,7 +48,7 @@ const SkillsCard = ({
     >
       <span className="">{icon}</span>
       <h4 className="mt-6 font-semibold md:font-bold ">{title}</h4>
-      <p className="mt-2 text-slate-500 hidden md:flex text-sm">{text}</p>
+      <p className="mt-2 text-slate-600 hidden md:flex text-sm">{text}</p>
     </motion.article>
   );
 };
