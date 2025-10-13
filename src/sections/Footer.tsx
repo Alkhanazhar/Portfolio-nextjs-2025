@@ -3,10 +3,10 @@ import { FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="testimonials">
       <div className="max-w-7xl mx-auto">
         <div className="p-10 z-10 ">
-          <div className="rounded-xl shadow-xl p-4 md:p-12 text-xl bg-blue-700/40 backdrop-blur-lg md:max-w-2xl lg:max-w-7xl mx-auto  flex justify-between items-center">
+          <div className="rounded-xl shadow-xl px-4 md:px-12 py-4 md:py-52 text-xl bg-gradient-to-bl from-[#0f172a] via-[#1e1a78] to-[#0f172a] backdrop-blur-xl md:max-w-2xl lg:max-w-7xl mx-auto  flex justify-between items-center">
             <div>
               <h2 className="text-xl font-semibold text-gray-200">
                 Let’s Connect and Create Something Amazing!
@@ -17,7 +17,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <a href="tel:+919109093125" className="flex items-center gap-2">
+            <a href="tel:+917987023697" className="flex items-center gap-2">
               <Button>
                 <span className="text-sm"> Call Me</span>
                 <FaPhone size={12} className="rotate-90" />

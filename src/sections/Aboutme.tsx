@@ -16,7 +16,8 @@ const AboutMe = () => {
     
     I'm open to job opportunities where I can contribute, learn, and grow.`;
   return (
-    <motion.section
+    <motion.section 
+     id="about"
       className="my-12 flex w-full scroll-mt-28 flex-col items-center py-12 relative"
       initial={{ opacity: 0, scale: 0.9 }}
       whileInView={{ opacity: 1, scale: 1 }}

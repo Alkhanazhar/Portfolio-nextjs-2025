@@ -92,6 +92,7 @@ const Technologies = () => {
       transition={{ duration: 0.2 }}
       viewport={{ amount: 0.1 }}
       className="min-h-screen w-full relative  font-sans md:px-10  "
+      id="skills"
     >
       <div className="w-60 h-60 absolute top-1/2 left-1/2 bg-blue-600/20 blur-3xl"></div>
       <Title title={"Technologie's"} />

@@ -49,7 +49,7 @@ export const Timeline = ({ data }: { data: Data[] }) => {
               </div>
 
               
-              <h3 className="hidden md:block h-full my-auto text-xl md:pl-20 md:text-4xl  font-bold text-neutral-500 dark:text-neutral-500 ">
+              <h3 className="hidden md:block h-full my-auto text-xl md:pl-20 md:text-4xl hover:underline  font-bold text-transparent bg-clip-text bg-gradient-to-l from-purple-500 via to-blue-500">
                 <Link href={item?.links}> {item.title}</Link>
               </h3>
             </div>

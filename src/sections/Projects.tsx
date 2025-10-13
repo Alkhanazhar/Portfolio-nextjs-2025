@@ -40,6 +40,7 @@ const Projects = () => {
       transition={{ duration: 0.5 }}
       viewport={{ amount: 0.1 }}
       className="my-12"
+      id='projects'
     >
       <Title title="projects" />
       <TimelineDemo />

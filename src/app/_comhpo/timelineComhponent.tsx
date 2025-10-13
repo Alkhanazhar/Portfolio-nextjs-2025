@@ -9,8 +9,8 @@ export function TimelineDemo() {
       links: "https://eleganzaestatesolutions.com/",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Education Through Scalable and Intuitive LMS Solutions Built with
+          <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
+          Education Through Scalable and Intuitive LMS Solutions Built with
             React.js and Java
           </p>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
@@ -54,8 +54,8 @@ export function TimelineDemo() {
       links: "https://eleganzaestatesolutions.com/",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Empowering HR Teams with Modern Recruitment Tools Powered by
+          <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
+          Empowering HR Teams with Modern Recruitment Tools Powered by
             React.js and Java Back-End Efficiency{" "}
           </p>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
@@ -63,29 +63,33 @@ export function TimelineDemo() {
           </div>
 
           <div className="grid grid-cols-2 gap-4">
+          <Image
+              src="/9.jpeg"
+              alt="startup template"
+  width={500}
+  height={500}
+  className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full 
+             transition-all duration-300 ease-in-out 
+             hover:scale-110 hover:-translate-x-2 hover:-translate-y-2 
+             hover:shadow-2xl"
+/>
+
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="https://assets.aceternity.com/features-section.png"
+              src="/10.jpeg"
               alt="feature template"
               width={500}
               height={500}
               className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
+              src="/11.jpeg"
               alt="bento template"
               width={500}
               height={500}
               className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/cards.png"
+              src="/12.jpeg"
               alt="cards template"
               width={500}
               height={500}
@@ -96,42 +100,42 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Ecommerce",
-      links: "https://eleganzaestatesolutions.com/",
+      title: "T-Rack Tool",
+      links: "https://t-racktool.com/",
 
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Clothing Ecommerce Full Stack Mern Application
+          <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
+            Tickets Management tool
           </p>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm my-4">
-            ✅ Role - Full Stack Developer
+            ✅ Role - Backend Developer
           </div>
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
+              src="/5.jpeg"
               alt="hero template"
               width={500}
               height={500}
               className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/features-section.png"
+              src="/6.jpeg"
               alt="feature template"
               width={500}
               height={500}
               className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
+              src="/7.png"
               alt="bento template"
               width={500}
               height={500}
               className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/cards.png"
+              src="/8.png"
               alt="cards template"
               width={500}
               height={500}
@@ -148,8 +152,8 @@ export function TimelineDemo() {
 
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-2xl font-normal mb-4">
-            Real estate for property listing
+          <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
+          Real estate for property listing
           </p>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
             ✅ Role - Backend Developer
