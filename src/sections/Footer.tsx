@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className="z-10 md:p-6 mt-4 px-4 py-20 border-t border-white/10 flex justify-between items-center">
           <p className="text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Azhar Khan. All Rights Reserved.
+            © {new Date().getFullYear()} Arbaz Khan. All Rights Reserved.
           </p>
 
           {/* Social Links */}

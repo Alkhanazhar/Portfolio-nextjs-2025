@@ -5,11 +5,16 @@ import SkillsCard from "@/components/components/SkillCard";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { motion } from "framer-motion";
 import {
+  SiDocker,
   SiFramer,
+  SiJavascript,
   SiMongodb,
+  SiMysql,
+  SiNestjs,
   SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
+  SiSpring,
   SiSvgtrace,
   SiTypescript,
 } from "react-icons/si";
@@ -21,11 +26,7 @@ const Technologies = () => {
     text: string;
   }
   const skills: Skill[] = [
-    {
-      title: "HTML&CSS",
-      icon: <FaHtml5 className="h-16 w-16  mx-auto text-blue-600" />,
-      text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
-    },
+   
     {
       title: "Typescript",
       icon: <SiTypescript className="h-16 w-16  mx-auto text-blue-600" />,
@@ -41,11 +42,7 @@ const Technologies = () => {
       icon: <SiNodedotjs className="h-16 w-16  mx-auto text-blue-600" />,
       text: "Expertise in Node js, building interactive and dynamic web applications Server with a focus on seamless user interactions and functionality.",
     },
-    {
-      title: "React Js",
-      icon: <FaReact className="h-16 w-16  mx-auto text-blue-600" />,
-      text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
-    },
+ 
     {
       title: "Mongo DB",
       icon: <SiMongodb className="h-16 w-16  mx-auto text-blue-600" />,
@@ -55,22 +52,37 @@ const Technologies = () => {
       title: "PostgreSQL",
       icon: <SiPostgresql className="h-16 w-16  mx-auto text-blue-600" />,
       text: "Comprehensive expertise in the MERN stack (MongoDB, Express.js, React, Node.js), creating robust full-stack applications for scalable and secure solutions.",
+    }, {
+      title: "MySQL",
+      icon: <SiMysql className="h-16 w-16 mx-auto text-blue-600" />,
+      text: "Strong experience with MySQL, designing and managing relational databases with a focus on performance, data integrity, and complex query optimization for scalable applications.",
+    }
+   ,
+    {
+      title: "Java",
+      icon: <SiJavascript className="h-16 w-16 mx-auto text-blue-600" />,
+      text: "Proficient in Java for building object-oriented, secure, and high-performance backend systems.",
     },
     {
-      title: "Next.js",
-      icon: <SiNextdotjs className="h-16 w-16  mx-auto text-blue-600" />,
-      text: "Specialized in Next.js for building high-performance server-side rendered applications with exceptional SEO and scalability.",
+      title: "Spring Boot",
+      icon: <SiSpring className="h-16 w-16 mx-auto text-blue-600" />,
+      text: "Experienced with Spring Boot for developing production-grade RESTful APIs, microservices, and backend logic.",
     },
     {
-      title: "GSAP",
-      icon: <SiSvgtrace className="h-16 w-16  mx-auto text-blue-600" />,
-      text: "Proficient in GSAP (GreenSock Animation Platform), delivering smooth and captivating animations to enhance user engagement and experience.",
-    },
-    {
-      title: "Framer Motion",
-      icon: <SiFramer className="h-16 w-16  mx-auto text-blue-600 " />,
-      text: "Skilled in Framer Motion, integrating fluid and expressive animations into React applications to create intuitive and delightful user interfaces.",
-    },
+      title: "NestJS",
+      icon: <SiNestjs className="h-16 w-16 mx-auto text-blue-600" />,
+      text: "Proficient in NestJS, leveraging its modular architecture and TypeScript support to build scalable, maintainable, and efficient server-side applications.",
+    }
+,
+{
+  title: "Microservices",
+  icon: <SiDocker className="h-16 w-16 mx-auto text-blue-600" />, // or SiKubernetes
+  text: "Skilled in designing and deploying microservices-based architectures, ensuring high scalability, independent deployment, and fault isolation using modern tools like Docker and RESTful communication patterns.",
+}
+,
+   
+  
+
   ];
 
   return (

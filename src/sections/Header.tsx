@@ -36,7 +36,7 @@ const Header: FC = () => {
       style={{ zIndex: 1000 }}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between z-10">
-        <div className="font-bold text-xl md:text-3xl">Azhar Khan</div>
+        <div className="font-bold text-xl md:text-3xl">Arbaz Khan</div>
         <ul className="md:flex items-center gap-4 hidden z-10">
           {navItems.map((item) => {
             return <li key={item.label}>{item.label}</li>;

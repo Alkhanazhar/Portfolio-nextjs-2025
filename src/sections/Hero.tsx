@@ -30,7 +30,7 @@ export function Hero() {
           transition={{ duration: 0.5, bounce: 1000, mass: -100, damping: 30 }}
           className=" bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-400 dark:to-white text-2xl md:text-4xl lg:text-6xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight"
         >
-          Hello {"i'm"} Azhar Khan. <br />
+          Hello {"i'm"} Arbaz Khan. <br />
           Full Stack Developer.
           <br />
           {/* Based in India */}

@@ -7,17 +7,14 @@ import { TextGenerateEffect } from "../components/components/ui/text-generate-ef
 // stohp stohp stohp stohp stohp stohp stohp
 
 const AboutMe = () => {
-  const words = ` I'm Azhar Khan, I'm a front-end full stack from
-          India. I've been learning programming for over 3 years. After I
-          started high school, I decided to pursue my passion for programming.
-          My favorite part of programming is the problem-solving aspect. I've
-          had the opportunity to work on several exciting projects during my
-          learning journey, ranging from personal projects to collaborative
-          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Postgresql and Prisma. I am always
-          looking to learn new technologies. \n I'm open to Job opportunities where I can contribute, learn and
-          grow. If you have a good opportunity that matches my skills and
-          experience then don't hesitate to contact me.`;
+  const words = ` I'm Arbaz Khan, a Full Stack Developer based in India. 
+    I've been learning programming for over 3 years. After I started high school, I decided to pursue my passion for programming. 
+    My favorite part of programming is the problem-solving aspect. 
+    I've had the opportunity to work on several exciting projects during my learning journey, ranging from personal projects to collaborative ventures. 
+    My core stack is React, Next.js, TypeScript, and Tailwind CSS. I am also familiar with Postgresql and Prisma. 
+    I am always looking to learn new technologies. 
+    
+    I'm open to job opportunities where I can contribute, learn, and grow.`;
   return (
     <motion.section
       className="my-12 flex w-full scroll-mt-28 flex-col items-center py-12 relative"
