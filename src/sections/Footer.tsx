@@ -17,7 +17,10 @@ const Footer = () => {
               </p>
             </div>
 
-            <a href="tel:+919109093125" className="flex items-center gap-2">
+            <a
+              href="tel:+919109093125"
+              className="flex items-center gap-2 animate-bounce"
+            >
               <Button>
                 <span className="text-sm"> Call Me</span>
                 <FaPhone size={12} className="rotate-90" />
