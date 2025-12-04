@@ -2,22 +2,19 @@
 import React from "react";
 import Title from "./Title";
 import SkillsCard from "@/components/components/SkillCard";
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { motion } from "framer-motion";
 import {
   SiDocker,
-  SiFramer,
   SiJavascript,
   SiMongodb,
   SiMysql,
   SiNestjs,
-  SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
   SiSpring,
-  SiSvgtrace,
   SiTypescript,
 } from "react-icons/si";
+import { FaJs } from "react-icons/fa";
 
 const Technologies = () => {
   interface Skill {
@@ -26,7 +23,6 @@ const Technologies = () => {
     text: string;
   }
   const skills: Skill[] = [
-   
     {
       title: "Typescript",
       icon: <SiTypescript className="h-16 w-16  mx-auto text-blue-600" />,
@@ -42,7 +38,7 @@ const Technologies = () => {
       icon: <SiNodedotjs className="h-16 w-16  mx-auto text-blue-600" />,
       text: "Expertise in Node js, building interactive and dynamic web applications Server with a focus on seamless user interactions and functionality.",
     },
- 
+
     {
       title: "Mongo DB",
       icon: <SiMongodb className="h-16 w-16  mx-auto text-blue-600" />,
@@ -52,12 +48,12 @@ const Technologies = () => {
       title: "PostgreSQL",
       icon: <SiPostgresql className="h-16 w-16  mx-auto text-blue-600" />,
       text: "Comprehensive expertise in the MERN stack (MongoDB, Express.js, React, Node.js), creating robust full-stack applications for scalable and secure solutions.",
-    }, {
+    },
+    {
       title: "MySQL",
       icon: <SiMysql className="h-16 w-16 mx-auto text-blue-600" />,
       text: "Strong experience with MySQL, designing and managing relational databases with a focus on performance, data integrity, and complex query optimization for scalable applications.",
-    }
-   ,
+    },
     {
       title: "Java",
       icon: <SiJavascript className="h-16 w-16 mx-auto text-blue-600" />,
@@ -72,17 +68,12 @@ const Technologies = () => {
       title: "NestJS",
       icon: <SiNestjs className="h-16 w-16 mx-auto text-blue-600" />,
       text: "Proficient in NestJS, leveraging its modular architecture and TypeScript support to build scalable, maintainable, and efficient server-side applications.",
-    }
-,
-{
-  title: "Microservices",
-  icon: <SiDocker className="h-16 w-16 mx-auto text-blue-600" />, // or SiKubernetes
-  text: "Skilled in designing and deploying microservices-based architectures, ensuring high scalability, independent deployment, and fault isolation using modern tools like Docker and RESTful communication patterns.",
-}
-,
-   
-  
-
+    },
+    {
+      title: "Microservices",
+      icon: <SiDocker className="h-16 w-16 mx-auto text-blue-600" />, // or SiKubernetes
+      text: "Skilled in designing and deploying microservices-based architectures, ensuring high scalability, independent deployment, and fault isolation using modern tools like Docker and RESTful communication patterns.",
+    },
   ];
 
   return (
