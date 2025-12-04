@@ -6,13 +6,12 @@ import React from "react";
 
 export function Hero() {
   return (
-    <div className="flex items-center  justify-center w-full flex-col px-4 md:my-20 min-h-screen md:min-h-min -z-10 space-y-8 md:space-y-4">
+    <div className="flex items-center sm:py-24 py-12  justify-center w-full flex-col px-4 md:my-20 min-h-screen md:min-h-min -z-10 space-y-8 md:space-y-4">
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
           delay: 1,
-
           duration: 0.5,
           bounce: 1000,
           mass: 100,
@@ -30,7 +29,7 @@ export function Hero() {
           transition={{ duration: 0.5, bounce: 1000, mass: -100, damping: 30 }}
           className=" bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-400 dark:to-white text-2xl md:text-4xl lg:text-6xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight"
         >
-          Hello {"i'm"} Arbaz Khan. <br />
+          Hello {"i'm"} Azhar Khan. <br />
           Full Stack Developer.
           <br />
           {/* Based in India */}

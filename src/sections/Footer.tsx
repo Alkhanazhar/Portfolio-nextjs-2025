@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div className="relative" id="testimonials">
       <div className="max-w-7xl mx-auto">
-        <div className="p-10 z-10 ">
-          <div className="rounded-xl shadow-xl px-4 md:px-12 py-4 md:py-52 text-xl bg-gradient-to-bl from-[#0f172a] via-[#1e1a78] to-[#0f172a] backdrop-blur-xl md:max-w-2xl lg:max-w-7xl mx-auto  flex justify-between items-center">
-            <div>
+        <div className="p-4 z-10 ">
+          <div className="rounded-xl shadow-xl px-4 md:px-12 py-4 md:py-40 text-xl bg-gradient-to-bl from-[#0f172a] via-[#1e1a78] to-[#0f172a] backdrop-blur-xl md:max-w-2xl lg:max-w-7xl mx-auto  flex flex-col gap-20 justify-between items-center">
+            <div className="flex flex-col justify-center">
               <h2 className="text-xl font-semibold text-gray-200">
                 Let’s Connect and Create Something Amazing!
               </h2>
@@ -17,7 +17,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <a href="tel:+917987023697" className="flex items-center gap-2">
+            <a href="tel:+919109093125" className="flex items-center gap-2">
               <Button>
                 <span className="text-sm"> Call Me</span>
                 <FaPhone size={12} className="rotate-90" />
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className="z-10 md:p-6 mt-4 px-4 py-20 border-t border-white/10 flex justify-between items-center">
           <p className="text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Arbaz Khan. All Rights Reserved.
+            © {new Date().getFullYear()} Azhar Khan. All Rights Reserved.
           </p>
 
           {/* Social Links */}

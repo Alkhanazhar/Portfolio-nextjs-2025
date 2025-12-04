@@ -68,7 +68,9 @@ export default function Header() {
       style={{ zIndex: 1000 }}
     >
       <div className="py-4 md:py-6 px-4 sm:px-6 md:px-8 xl:px-0 max-w-7xl mx-auto flex items-center justify-between">
-        <div className="font-bold text-xl md:text-3xl cursor-pointer">Arbaz Khan</div>
+        <div className="font-bold text-xl md:text-3xl cursor-pointer">
+          Azhar Khan
+        </div>
         <ul className="md:flex items-center gap-4 hidden">
           {navItems.map((item) => (
             <li key={item.id}>

@@ -59,7 +59,7 @@ const ChatBtn = () => {
           >
             {!chatbox ? (
               <motion.div
-                className="bg-blue-400/20 backdrop-blur-lg rounded-full p-2"
+                className="bg-blue-400/20 backdrop-blur-lg rounded-full p-4 animate-bounce"
                 initial={{ scale: 0, opacity: 0, y: 10, skew: 0.4 }}
                 animate={{ opacity: 1, y: 0, scale: 1.5 }}
                 exit={{ opacity: 0, y: 10, scale: 0 }}

@@ -34,7 +34,7 @@ const SkillsCard = ({
         zIndex: 1000,
         shadow: "4rem 4rem white",
       }}
-      className="scale-50 text-center backdrop-blur-xl border-white/10 border rounded-md p-3 "
+      className="scale-50 text-center backdrop-blur-2xl border-white/10 border rounded-md p-3 "
       variants={{
         visible: {
           opacity: 1,
