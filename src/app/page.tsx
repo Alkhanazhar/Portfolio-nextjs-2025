@@ -1,4 +1,5 @@
 "use client";
+import Services from "@/sections/Servicess";
 import AboutMe from "../sections/Aboutme";
 import ChatBtn from "../sections/ChatBtn";
 import Footer from "../sections/Footer";
@@ -14,10 +15,11 @@ export default function Home() {
       <div className="w-40 h-40 bg-pink-600/70 blur-3xl opacity-10 absolute top-60 right-0"></div>
       <Header />
       <Hero />
-      <AboutMe />
       <Technologies />
+      <Services />
       <Projects />
       <Footer />
+      <AboutMe />
       <ChatBtn />
     </div>
   );

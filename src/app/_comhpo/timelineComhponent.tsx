@@ -13,7 +13,7 @@ export function TimelineDemo() {
             Education Through Scalable and Intuitive LMS Solutions Built with
             React.js and Java
           </p>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+          <div className="flex gap-2 items-center my-4 text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
             ✅ Role - Front End Developer
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -58,7 +58,7 @@ export function TimelineDemo() {
             Empowering HR Teams with Modern Recruitment Tools Powered by
             React.js and Java Back-End Efficiency{" "}
           </p>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+          <div className="flex gap-2 items-center my-4 my-2 text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
             ✅ Role - Front End Developer
           </div>
 
@@ -108,7 +108,7 @@ export function TimelineDemo() {
           <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
             Tickets Management tool
           </p>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm my-4">
+          <div className="flex gap-2 items-center my-4 text-neutral-700 dark:text-neutral-300 text-xs md:text-sm my-4">
             ✅ Role - Frontend Developer
           </div>
 
@@ -154,7 +154,7 @@ export function TimelineDemo() {
           <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
             Real estate for property listing
           </p>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+          <div className="flex gap-2 items-center my-4 text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
             ✅ Role - Frontend Developer
           </div>
           <div className="grid grid-cols-2 gap-4">

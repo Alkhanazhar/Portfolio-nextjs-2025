@@ -34,7 +34,7 @@ export const Timeline = ({ data }: { data: Data[] }) => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
       viewport={{ amount: 0.12 }}
-      className="w-full  font-sans md:px-10"
+      className="w-full font-sans md:px-10"
       ref={containerRef}
     >
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20 md:-mt-20">
@@ -48,7 +48,6 @@ export const Timeline = ({ data }: { data: Data[] }) => {
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
 
-              
               <h3 className="hidden md:block h-full my-auto text-xl md:pl-20 md:text-4xl hover:underline  font-bold text-transparent bg-clip-text bg-gradient-to-l from-purple-500 via to-blue-500">
                 <Link href={item?.links}> {item.title}</Link>
               </h3>
