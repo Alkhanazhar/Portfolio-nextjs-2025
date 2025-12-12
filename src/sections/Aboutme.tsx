@@ -18,15 +18,15 @@ const AboutMe = () => {
   return (
     <motion.section
       id="about"
-      className="my-12 flex w-full scroll-mt-28 flex-col items-center py-12 relative"
+      className="md:py-40 flex w-full scroll-mt-28 flex-col items-center py-12 relative"
       initial={{ opacity: 0, scale: 0.9 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.1 }}
       viewport={{ amount: 0.1, once: true }}
     >
       <Title title="About Me" />
-      <div className="max-w-2xl text-center leading-7 py-10 ">
-        <div className="w-96 h-96 bg-blue-500/10 blur-3xl absolute top-1/2 left-1/2"></div>
+      <div className="max-w-4xl mx-8 text-center !leading-relaxed py-10 ">
+        <div className=" h-96 bg-blue-500/10 blur-3xl absolute top-1/2 left-1/2"></div>
         <TextGenerateEffect className={"text-white/50"} words={words} />
       </div>
     </motion.section>

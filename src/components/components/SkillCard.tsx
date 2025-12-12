@@ -48,7 +48,7 @@ const SkillsCard = ({
     >
       <span className="">{icon}</span>
       <h4 className="mt-6 font-semibold md:font-bold ">{title}</h4>
-      <p className="mt-2 text-slate-600 hidden md:flex text-sm">{text}</p>
+      <p className="mt-2 text-slate-300 hidden md:flex text-sm">{text}</p>
     </motion.article>
   );
 };

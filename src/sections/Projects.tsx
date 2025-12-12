@@ -39,8 +39,8 @@ const Projects = () => {
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
       viewport={{ amount: 0.1 }}
-      className="my-12"
-      id='projects'
+      className="my-12 overflow-hidden"
+      id="projects"
     >
       <Title title="projects" />
       <TimelineDemo />

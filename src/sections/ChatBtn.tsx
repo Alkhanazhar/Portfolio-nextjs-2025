@@ -13,7 +13,7 @@ const ChatBtn = () => {
     // Open the WhatsApp link in a new tab
   };
   return (
-    <div className="fixed bottom-12 right-12 ">
+    <div className="fixed md:bottom-12 md:right-12 right-4 bottom-4 ">
       <AnimatePresence>
         <motion.div layout>
           {chatbox && (

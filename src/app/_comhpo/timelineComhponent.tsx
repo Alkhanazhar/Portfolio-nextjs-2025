@@ -10,7 +10,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
-          Education Through Scalable and Intuitive LMS Solutions Built with
+            Education Through Scalable and Intuitive LMS Solutions Built with
             React.js and Java
           </p>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
@@ -55,7 +55,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
-          Empowering HR Teams with Modern Recruitment Tools Powered by
+            Empowering HR Teams with Modern Recruitment Tools Powered by
             React.js and Java Back-End Efficiency{" "}
           </p>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
@@ -63,16 +63,16 @@ export function TimelineDemo() {
           </div>
 
           <div className="grid grid-cols-2 gap-4">
-          <Image
+            <Image
               src="/9.jpeg"
               alt="startup template"
-  width={500}
-  height={500}
-  className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full 
+              width={500}
+              height={500}
+              className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full 
              transition-all duration-300 ease-in-out 
              hover:scale-110 hover:-translate-x-2 hover:-translate-y-2 
              hover:shadow-2xl"
-/>
+            />
 
             <Image
               src="/10.jpeg"
@@ -109,7 +109,7 @@ export function TimelineDemo() {
             Tickets Management tool
           </p>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm my-4">
-            ✅ Role - Backend Developer
+            ✅ Role - Frontend Developer
           </div>
 
           <div className="grid grid-cols-2 gap-4">
@@ -149,14 +149,13 @@ export function TimelineDemo() {
       title: "Eleganza Real Estate",
       links: "https://eleganzaestatesolutions.com/",
 
-
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
-          Real estate for property listing
+            Real estate for property listing
           </p>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Role - Backend Developer
+            ✅ Role - Frontend Developer
           </div>
           <div className="grid grid-cols-2 gap-4">
             <Image
