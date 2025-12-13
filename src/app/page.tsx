@@ -18,8 +18,8 @@ export default function Home() {
       <Technologies />
       <Services />
       <Projects />
-      <Footer />
       <AboutMe />
+      <Footer />
       <ChatBtn />
     </div>
   );
